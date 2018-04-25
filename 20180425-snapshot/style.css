@@ -1,0 +1,379 @@
+/*
+color combos:
+brown:
+#CDB99C; 
+maroon:
+#330000'
+
+*/
+
+
+body {
+		margin: 0;
+		padding: 0 0 0 0;
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 0.8em;
+		line-height: 1.5em;
+		color: #000000;
+		background: #f3f3f3;
+		background-image: url('images/bg2.png');
+	}
+	
+.topbar1 {
+background-color:#444444;
+
+background-image: url('images/bg2.png');
+color:#000000;
+height: 80px;
+
+}
+.topbar2 {
+color:#000000;
+background-color:#0A4800;
+height:12px;
+	border-top-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: dotted;
+	border-top-color: rgb(105, 105, 155);
+    border-right-color: rgb(255, 0, 0);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 0, 0);
+}
+	
+.title {
+font-weight:bold;
+padding:2px;
+
+}
+
+.thumbnail-left {
+background-color:#F1FFE1;
+	border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+	border-top-color: rgb(105, 105, 105);
+    border-right-color: rgb(105, 105, 105);
+    border-bottom-color: rgb(105, 105, 105);
+	border-left-color: rgb(105, 105, 105);
+	padding:3px;
+	margin-right:1px;
+width:120px;
+float:left;
+}
+	.thumbnail-right {
+background-color:#F1FFE1;
+	border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+	border-top-color: rgb(105, 105, 105);
+    border-right-color: rgb(105, 105, 105);
+    border-bottom-color: rgb(105, 105, 105);
+	border-left-color: rgb(105, 105, 105);
+	margin-left:1px;
+	padding:3px;
+width:120px;
+float:right;
+}
+	
+	
+	
+	
+#main {
+background-image: url('images/bg.png');
+background-color:#eeeeee;
+color:inherit;
+}
+#top {
+background-color:#006633;
+color:inherit;
+}
+
+#geo {
+margin:2px;
+text-align:center;
+
+}
+
+.inline, .thumbnail {
+	padding:10px;
+	border: 1px dotted black;
+	background-color:#ffffee;
+	margin:5px;
+}
+
+
+
+#middle {
+color:inherit;
+background-image:none;
+background-color:#ffffff;
+width:880;
+margin: auto;
+	border-top-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 0px;
+    border-left-width: 1px;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+	border-top-color: rgb(105, 105, 155);
+    border-right-color: #CFCFCF;
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: #CFCFCF;
+}
+
+#middle #text {
+padding:0px;
+
+}
+
+	#middle #leftcol ul {
+	margin:0px;
+	list-style-type:none;
+	padding-left:0px;
+	font-weight:700;
+	}
+	#middle #leftcol ul ul{
+	font-weight:normal;
+	margin:0px;
+	padding-left:15px;
+	}
+	
+	
+
+#middle #leftcol {
+background-color:#ffffee;
+	border-top-width: 0px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-top-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: dotted;
+	border-top-color: rgb(105, 105, 155);
+    border-right-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(9, 9, 9);
+    border-left-color: rgb(0, 0, 0);
+	padding:0px;
+width:278px;
+float:left;
+
+}
+#middle #rightcol {
+background-color:#ffffff;
+	border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+	border-top-color: rgb(105, 105, 155);
+    border-right-color: #CFCFCF;
+    border-bottom-color: #AAAACC;
+    border-left-color: #AAAACC;
+	padding:2px 10px 2 10;
+
+text-align:left;
+float:right;
+width:580;
+}
+
+.box h2 {
+width:100%;
+clear:both;
+float:left;
+}
+#bottom {
+background-color:#220A00;
+color:white;
+font-size:0.7em;
+text-align:center;
+	border-top-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: dotted;
+	border-top-color: rgb(105, 105, 155);
+    border-right-color: rgb(255, 0, 0);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 0, 0);
+}
+
+	#bottom a:visited {
+	color: #FFFFFF;
+	text-decoration: none;	
+}
+#bottom a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#bottom a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+	}
+
+
+
+	a:visited {
+	color: #993333;
+	text-decoration: none;	
+}
+a:link {
+	color: #993333;
+	text-decoration: none;
+}
+a:hover {
+	color: #993333;
+	text-decoration: underline;
+	}
+	h1, h2, h3, h4 {
+		width: 100%;
+		color: #665544;
+		background: transparent;
+		text-align:left;
+		padding: 0;
+		margin:0;
+	}
+	
+	h1 {
+		font-variant: small-caps;
+		line-height:1.6em;
+		font-size: 1.4em;
+		color:#552233;
+		border-bottom: #AAAACC 1px solid;
+		padding: 0px;
+	}
+	
+	#rightcol h1 {
+		text-align:left;
+		padding-right:0px;
+		margin-top:8px;
+		margin-right:4px;
+		}
+	ul {
+	list-style-image:url(test.png);
+	}
+	
+	
+	#rightcol ul {
+	margin:2px;
+	list-style-image:url(test.png);
+	padding-right:6px;
+	}
+	#rightcol ul li{
+	margin:0px;
+	list-style-image:url(test.png);
+	}
+	#rightcol ul li .date {
+	font-size:0.7em;
+	}
+	
+	
+	h3 {
+		width:75%;
+		font-size: 10px;
+		margin: 0em 0 0px 0;
+		background-color:#EDF4EE;
+			border-top-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-top-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: dotted;
+	border-top-color: rgb(105, 105, 155);
+    border-right-color: rgb(255, 0, 0);
+   border-bottom-color: rgb(105, 105, 155);
+    border-left-color: rgb(255, 0, 0);
+		
+		
+	}
+	
+	h2 {
+		/*background-color:#888899;*/
+		background-color:#ffffee;
+		color:#330000;
+		text-transform: uppercase;
+		font-size: 11px;
+		border-bottom: #330000 1px solid;
+		border-top: #330000 1px solid;
+		/* i know IE displays it as dashed...but i can live with that...don't fancy putting
+		a voice-family hack in here, feeding IE a solid lighter border, just for the sake
+		of a dotted line */
+		margin: 0em 0 0em 0;
+		padding-left:1px;
+		margin-top:24px;
+	}
+	
+.box {
+margin:12px;
+padding:12px;
+border: 1px dashed #d0a65f;
+background-color:#CCDDCC;
+
+}
+
+/* /////////////////////////////////NAV BAR///////////////////////////////// */
+.nav {
+border-bottom: 0px solid #CCCCCC; 
+border-right: 0px solid #000000; 
+border-left: 0px solid #000000;
+border-top: 0px solid #000000;
+text-align: left;
+margin-left: 0;
+height: 28px;
+}
+.nav a:visited {
+color: #FFFFFF; 
+}
+.nav a:link {
+color: #FFFFFF; 
+}
+.nav a:hover {
+color: #CDB99C; 
+#background-color:#443322; 
+}
+.nav ul li a {
+#background-color:#0A4800;
+padding: 1px 10px 1px 10px;
+border: 1px solid #AAAACC;
+text-align: left; 
+text-decoration: none; 
+}
+.nav ul {
+padding:0px; 
+margin:0px; 
+
+}
+.nav ul li{ 
+display:inline;
+padding:0px; 
+margin:0px; 
+font-size:11px;
+font-weight:700;
+text-align:center;
+}
+	
